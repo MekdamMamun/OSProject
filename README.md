@@ -1,12 +1,12 @@
 # OSProject Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: OS
 
-Section: __Fill your class section__. 
+Section: 2 
 
 Team Mates:
 1. Mamun Mekdam Bin 2122727
-2. __Fill name__ and __matric no__
+2. FARHAN AKBAR CHOWDHURY 2028705
 3. __Fill name__ and __matric no__
 
 ## Rules

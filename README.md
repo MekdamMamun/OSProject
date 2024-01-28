@@ -87,18 +87,18 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
+1. Run the command **pwd** . ***(1 mark)*** __![Alt text](Os 1.png)__.
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** __![Alt text](Os 2.png)__.
+3. Run the command **df** . ***(1 mark)*** __![Alt text](OS 3.png)__.
+4. Run the command **du** . ***(1 mark)*** __![Alt text](OS 4.1.png) / ![Alt text](OS 4.2.png)__.
+5. Run the command **ls** . ***(1 mark)*** __![Alt text](OS 5.png)__.
+6. Run the command **ls -asl** . ***(1 mark)*** __![Alt text](OS 6.png)__.
+7. Run the command **free -h** . ***(1 mark)*** __![Alt text](OS 7.png)__.
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __![Alt text](OS 8.png)__.
+9. Run the command **top** and type **q** to quit. ***(1 mark)*** __![Alt text](OS 9.png)__.
+10. Run the command **uname -a**. ***(1 mark)*** __![Alt text](OS 10.png)__.
+11. What is the available free memory in the system. ***(1 mark)*** __237Mi__.
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** __5Gi__.
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.

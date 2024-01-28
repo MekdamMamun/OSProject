@@ -184,20 +184,21 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __total 32
- 4 drwxrwxrwx+ 5 codespace root  4096 Jan 28 14:15  .
- 4 drwxr-xrwx+ 5 codespace root  4096 Jan 28 14:15  ..
- 4 drwxrwxrwx+ 9 codespace root  4096 Jan 28 14:16  .git
- 4 drwxrwxrwx+ 2 codespace root  4096 Jan 28 14:15 'GROUP project'
-12 -rw-rw-rw-  1 codespace root 11343 Jan 28 14:15  README.md
- 4 drwxrwxrwx+ 2 codespace root  4096 Jan 28 14:15  images__.
-2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)***
+@MekdamMamun ➜ /workspaces/OSProject (main) $ ls -l
+total 28
+-rw-rw-rw-  1 codespace codespace    32 Jan 28 15:04  helloworld.txt
+@MekdamMamun ➜ /workspaces/OSProject (main) $ id
+uid=1000(codespace) gid=1000(codespace) groups=1000(codespace),106(ssh),107(docker),988(pipx),989(python),990(oryx),991(golang),992(sdkman),993(rvm),994(php),995(conda),996(nvs),997(nvm),998(hugo),999(dotnet)
+3. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __ 4 drwxr-xrwx+ 5 codespace root  4096 Jan 28 14:15__.***
+*** @MekdamMamun ➜ /workspaces/OSProject (main) $ sudo chown -R codespace:codespace helloworld.txt
+@MekdamMamun ➜ /workspaces/OSProject (main) $ '''
+> ***
 
 ## You are on your own, create your own static webpage
 

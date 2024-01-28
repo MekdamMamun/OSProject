@@ -99,11 +99,12 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 10. Run the command **uname -a**. ***(1 mark)*** __![Alt text](OS 10.png)__.
 11. What is the available free memory in the system. ***(1 mark)*** __237Mi__.
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __5Gi__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Linux codespaces-10daca 6.2.0-1018-azure #18-22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux__.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)***
+__ls' is the basic command that simply lists the name of the files and directories meanwhile 'ls -asl' is a customized option command that provides a more detailed listing, such as hidden files, sizes in blocks, and additional information about each file__.
+16. What is the TLB size of the Virtual CPU. ***(1 mark)*** __2560 4K pages__.
+17. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __2877.951MHz__.
+18. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __14:32:54 up 49 min,  0 users,  load average: 0.03, 0.16, 0.35__.
 
 ## Running your own container instance.
 
@@ -163,8 +164,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** __Files in a container are typically not persistent by default because containers are designed to be stateless and ephemeral, prioritizing scalability and reproducibility over persistent storage.__.
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Yes__.
 
 ## Running your own container with persistent storage
 
@@ -183,14 +184,20 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __total 32
+ 4 drwxrwxrwx+ 5 codespace root  4096 Jan 28 14:15  .
+ 4 drwxr-xrwx+ 5 codespace root  4096 Jan 28 14:15  ..
+ 4 drwxrwxrwx+ 9 codespace root  4096 Jan 28 14:16  .git
+ 4 drwxrwxrwx+ 2 codespace root  4096 Jan 28 14:15 'GROUP project'
+12 -rw-rw-rw-  1 codespace root 11343 Jan 28 14:15  README.md
+ 4 drwxrwxrwx+ 2 codespace root  4096 Jan 28 14:15  images__.
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+*** __ 4 drwxr-xrwx+ 5 codespace root  4096 Jan 28 14:15__.***
 
 ## You are on your own, create your own static webpage
 
@@ -216,9 +223,9 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)***
-3. What port is open for http protocol on the host machine? ***(1 mark)***
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __ 4 drwxrwxrwx+ 2 codespace root  4096 Jan 28 14:15/usr/local/apache/htdocs__.
+2. What port is the apache web server running. ***(1 mark)*** =8080
+3. What port is open for http protocol on the host machine? ***(1 mark)***="80"
 
 ## What to submit
 

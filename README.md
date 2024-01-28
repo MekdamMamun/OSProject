@@ -7,7 +7,7 @@ Section: 2
 Team Mates:
 1. Mamun Mekdam Bin 2122727
 2. FARHAN AKBAR CHOWDHURY 2028705
-3. __Fill name__ and __matric no__
+
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
@@ -24,7 +24,7 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __Fill answer here__.
+1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __https://github.com/MekdamMamun/OSProject__.
 2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
 
 

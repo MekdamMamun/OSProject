@@ -57,9 +57,20 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Ubuntu Linux__.
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)***
+    __Standard Configuration:
+RAM: 4 GB
+Disk Space: 32 GB
+vCPU: 1 core
+Enhanced Configuration:
+RAM: 8 GB
+Disk Space: 64 GB
+vCPU: 2 cores__.
+4. Why must we commit and sync our current work on source control? ***(1 mark)***
+   __Preserves Changes: Captures a snapshot of your current work, preserving changes and allowing you to revert if needed.
+Collaboration: Enables collaboration by sharing updates with team members, ensuring everyone has access to the latest code.
+Backup: Serves as a backup, protecting your work from accidental loss or system failures.__.
 
 ## Exploring the Terminal
 
